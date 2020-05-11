@@ -166,6 +166,25 @@
 								LR <input name="data.resources.{{res.name}}.lr" type="checkbox" {{checked res.lr}}/>
 								</label>
 							</footer>
+							<h4 class="attribute-name box-title">
+								<input name="data.resources.{{res.name}}.label" type="text" value="{{res.label}}"
+									placeholder="{{res.placeholder}}" />
+							</h4>
+							<div class="attribute-value multiple">
+								<input name="data.resources.{{res.name}}.value" type="text" value="{{res.value}}"
+									data-dtype="Number" placeholder="0"/>
+								<span class="sep"> / </span>
+								<input name="data.resources.{{res.name}}.max" type="text" value="{{res.max}}"
+									data-dtype="Number" placeholder="0"/>
+							</div>
+							<footer class="attribute-footer">
+								<label class="checkbox">
+								SR <input name="data.resources.{{res.name}}.sr" type="checkbox" {{checked res.sr}}/>
+								</label>
+								<label class="checkbox">
+								LR <input name="data.resources.{{res.name}}.lr" type="checkbox" {{checked res.lr}}/>
+								</label>
+							</footer>
 						</li>
 						{{/each}}
 						<li class="attribute initiative">
