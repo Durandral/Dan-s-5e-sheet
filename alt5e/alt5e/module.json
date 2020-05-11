@@ -9,7 +9,7 @@
 	"systems": ["dnd5e"],
 	"esmodules": ["alt5e.js"],
 	"styles": ["/css/alt5e.css"],
-	"url": "https://github.com/Sky-Captain-13/foundry/tree/master/alt5e",
-	"manifest": "https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/alt5e/alt5e/module.json",
-	"download": "https://github.com/Sky-Captain-13/foundry/raw/master/alt5e/alt5e.zip"
+	"url": "https://github.com/Durandral/Dan-s-5e-sheet/tree/master/alt5e",
+	"manifest": "https://raw.githubusercontent.com/Durandral/Dan-s-5e-sheet/master/alt5e/alt5e/module.json",
+	"download": "https://github.com/Durandral/Dan-s-5e-sheet/blob/master/alt5e/alt5e.zip"
 }
